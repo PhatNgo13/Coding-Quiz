@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,31 +13,43 @@
     </header>
 
     <form>
-        <label for="name">Full Name</label>
-        <input type="text" name="name" placeholder="John Doe" required><br>
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="johndoe@gmail.com" required><br>
-        <label for="date">Birthdate</label>
-        <input type="date" id="date"><br>
-        <label for="fnumber">Favorite Number</label>
-        <input type="number" name="fnumber" placeholder="13" required><br>
-        <label for="hcolor">Hair Color</label>
-        <input type="color" name="hcolor" placeholder="Black" required><br>
-        <label for="Ttrack">Tech Track</label>
-            <select name="Ttrack">
-                <option value="Coding">Coding</option>
-                <option value="BA">BA</option>
-                <option value="Cyber">Cyber</option>
-            </select><br>
-        <label for="osiel">Osiel</label>
-        <input type="radio" id="osiel" name="osiel"><br>
-        <label for ="isaac">Isaac</label>
-        <input type="radio" id="isaac" name="isaac"><br>
-        <label for="url">Restaurant URL</label>
-        <input type="url" name="url" placeholder="www.myrestaurant.com" required><br>
-        <label for="comment">Comment</label>
-        <input type="textarea" id="comment" placeholder="Your comment here..."><br>
-        <input type="submit" value="Submit"
+        <div class="row">
+            <div class="input">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" placeholder="John Doe" required><br><br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="johndoe@gmail.com" required><br><br>
+
+                <label for="date">Birthdate</label>
+                <input type="date" id="date"><br><br>
+
+                <label for="fnumber">Favorite Number</label>
+                <input type="number" name="fnumber" placeholder="13" required><br><br>
+                <label for="hcolor">Hair Color</label>
+                <input type="color" name="hcolor" placeholder="Black" required><br><br>
+
+                <label for="Ttrack">Tech Track</label>
+                    <select name="Ttrack">
+                        <option value="Coding">Coding</option>
+                        <option value="BA">BA</option>
+                        <option value="Cyber">Cyber</option>
+                    </select><br><br>
+
+                <label for="osiel">Osiel</label>
+                <input type="radio" id="osiel" name="osiel"><br><br>
+                <label for ="isaac">Isaac</label>
+                <input type="radio" id="isaac" name="isaac"><br><br>
+
+                <label for="url">Restaurant URL</label>
+                <input type="url" name="url" placeholder="www.myrestaurant.com" required><br><br>
+
+                <label for="comment">Comment</label>
+                <input type="textarea" id="comment" placeholder="Your comment here..."><br><br>
+
+                <input type="submit" value="Submit">
+            </div>
+        </div>
     </form>
 </body>
 </html>
